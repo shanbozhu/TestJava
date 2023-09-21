@@ -1,5 +1,3 @@
 #CocoaPods
 out/
-.idea/
 *.class
-*.iml
