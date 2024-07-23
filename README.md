@@ -10,5 +10,5 @@
 
 ```
 // java11支持单个文件源码直接用java执行
-`java TestJava.java`
+java TestJava.java
 ```
