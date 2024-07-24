@@ -13,6 +13,9 @@ public class Test {
         System.out.println(dc.website);
         System.out.println(dc.URL);
 
+        DataClass.URL = "haha";
+        dc.URL = "lala";
+
         // 类名.变量名调用类属性
         System.out.println(DataClass.website);
         System.out.println(DataClass.URL);
