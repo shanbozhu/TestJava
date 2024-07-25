@@ -10,11 +10,11 @@
 
 `java TestJava`
 
-执行`TestJava.class`文件中的名为`TestJava`的主类。
+执行`TestJava.class`文件中名为`TestJava`的主类。
 
 主类：含有main函数的类。
 
 ```
-// java11支持单个文件源码直接用java执行
+// java11开始，支持单个文件源码直接用java执行
 java TestJava.java
 ```
