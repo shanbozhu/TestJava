@@ -15,6 +15,6 @@
 主类：含有main函数的类。
 
 ```
-// java11开始，支持单个文件源码直接用java执行
+// 从java11开始，支持单个文件源码直接用java执行
 java TestJava.java
 ```
