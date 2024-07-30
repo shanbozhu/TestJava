@@ -7,5 +7,15 @@ public class Test1 {
         String str2 = new String(str1);
         System.out.println(str2 == str1);
         System.out.println(str2.equals(str1));
+
+        char a[] = {'H','e','l','l','o'};
+        String sChar = new String(a);
+        a[1] = 's';
+        System.out.println(sChar);
+
+        char b[] = {'H','e','l','l','o'};
+        String ssChar = new String(b,1,4);
+        b[1] = 's';
+        System.out.println(ssChar);
     }
 }
