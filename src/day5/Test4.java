@@ -12,5 +12,10 @@ public class Test4 {
         for (int i = 0; i < no.length; i++) {
             System.out.println("学号：" + no[i] + "|姓名：" + names[i] + "|课程：" + classes[i] + "|班级：" + "初二（三）班");
         }
+
+        String str = "Welcome to" + "Beijing"
+                + "欢迎来到" + "北京。"
+                + "北京我的故乡。";
+        System.out.println(str);
     }
 }
